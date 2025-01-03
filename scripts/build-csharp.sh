@@ -3,6 +3,7 @@ set -euxo pipefail
 scriptdir=$(cd $(dirname $0) && pwd)
 projFile=$1
 
+
 echo "=============================="
 echo "building project: $projFile"
 echo "=============================="
